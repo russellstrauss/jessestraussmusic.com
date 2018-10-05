@@ -1,0 +1,247 @@
+@font-face {
+  font-family: mainFont;
+  src: url(files/OratorStd.otf);
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    background-color: rgba(0,0,0,.7) !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid white;
+  }
+
+  li a {
+    font-size: 20px !important;
+    color: white !important;
+  }
+
+  h1 {
+    color: white;
+  }
+  h2 {
+    color: white;
+  }
+  h3 {
+    color: white;
+  }
+
+  article p a {
+    color: white !important;
+  }
+
+  article.text-area {
+    border: 2px solid white !important;
+    background-color: rgba(0,0,0,.7) !important;
+    color: white !important;
+  }
+
+  article.text-area h1 {
+    color: white !important;
+    text-transform: capitalize;
+  }
+
+  div.nav {
+    text-align: center;
+    padding-top: 1%;
+  }
+
+  iframe#bach {
+    margin-top: 3%;
+  }
+
+  p.caption {
+    font-size: 10px !important;
+  }
+
+  p.caption a {
+    font-size: 10px !important;
+  }
+}
+
+body {
+  background: url(images/Prost-55.jpg) no-repeat right top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+p {
+  font-family: 'Raleway';
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: mainFont;
+  text-transform: lowercase;
+}
+
+.header {
+  background-color: rgba(255,255,255,.6);
+  box-shadow: 2px 2px 10px;
+  min-width: 100%;
+  font-family: mainFont;
+}
+
+.navbar-right {
+  padding-top: 1%;
+  padding-bottom: 0;
+}
+
+div.header ul li {
+  list-style-type: none;
+  text-align: right;
+  display: inline;
+  font-family: mainFont;
+  font-size: 24px;
+  padding: 5px;
+  text-transform: lowercase;
+}
+
+div.header ul li a {
+  color: black;
+}
+
+div.header ul li a:hover {
+  color: rgb(182, 155, 185);
+  text-decoration: underline;
+}
+
+div.header ul li a:active {
+  color: black;
+  text-decoration: underline;
+}
+
+/*Body and Text area styles*/
+
+article {
+  padding: 3%;
+}
+
+article section.article-header {
+  text-align: center;
+}
+
+article section h1 {
+  color: black !important;
+  text-transform: lowercase;
+}
+
+article.text-area {
+  background-color: rgba(255,255,255,0.2);
+  margin-top: 20%;
+  margin-bottom: 10%;
+  border: 2px solid black;
+}
+
+article p a {
+  color: black;
+  text-decoration: underline;
+}
+
+article p a:active {
+  color: black;
+  text-decoration: underline;
+}
+
+article p a:hover {
+  color: rgb(182, 155, 185);
+  text-decoration: underline;
+}
+
+div#media {
+  padding: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: rgba(0,0,0,.5)
+}
+
+div.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+iframe {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#tracks {
+  padding-top: 3%;
+}
+
+div#slides {
+  padding-top: 3%;
+}
+
+p.caption {
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-size: auto;
+  bottom: 0px;
+  color: white;
+  display: block;
+  font-size: 14px;
+  left: 0px;
+  line-height: 24px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  padding: 1%;
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+p.caption a {
+  color: white;
+  text-decoration: underline;
+}
+
+p.caption a:hover {
+  color: rgb(182, 155, 185);
+  text-decoration: underline;
+}
+
+/* FOOTER */
+.footer {
+  background-color: rgba(49, 59, 69, .6);
+  color: white;
+  text-align: center;
+  box-shadow: -2px -2px 10px #000;
+}
+
+footer #identifier {
+  padding: 1%;
+  vertical-align: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: rgb(182, 155, 185);
+  text-decoration: underline;
+}
